@@ -1,0 +1,48 @@
+.about-us-container {
+  max-width:300vh;
+  margin: 0 auto;
+  padding: 40px;
+  margin-left:60px;
+  background-color: #FFD0EF;
+}
+
+.about-us-content {
+  padding: 20px;
+}
+
+.about-us-content h1 {
+  font-size: 42px;
+  font-weight: bold;
+  color:#000000;
+  font-family: "Inter", sans-serif;
+}
+
+.about-us-content h3 {
+  color: #000000;
+}
+
+.about-us-content p {
+  color: rgb(60, 60, 60);
+  line-height: 1.5;
+}
+
+.about-us-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-us-content ul li {
+  margin-bottom: 10px;
+}
+.item{
+  color:#000000;
+}
+
+.about-us-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.about-us-content a:hover {
+  text-decoration: underline;
+}
