@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>PinkWheels</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Importing Marko One font -->
+    <link href="https://fonts.googleapis.com/css2?family=Marko+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        * {
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* body {
+
+
+            background: #FFD0EF;
+        }*/
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+            /* Hide horizontal scrollbar */
+            height: 100%;
+            background: #FFD0EF;
+            position: relative;
+        }
+
+        .navbar {
+            height: 3rem;
+            background-color: #000000;
+            font-family: "Space Grotesk", sans-serif;
+            padding-right: 15px;
+            padding-left: 15px;
+            overflow-x: hidden;
+        }
+
+        .navdiv {
+            margin-top: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+
+        .logo a {
+            font-size: 15px;
+            font-weight: 600;
+            font-family: 'Marko One', sans-serif;
+
+        }
+
+        .pink {
+            color: #FBF4F9;
+        }
+
+        .wheels {
+            color: #F875AA;
+        }
+
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        li a {
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            margin-right: 25px;
+        }
+
+        li a:hover {
+            text-decoration: underline;
+            text-decoration-color: white;
+        }
+
+        button {
+            background-color: white;
+            padding: 5px 15px;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 15px;
+            color: black;
+
+        }
+
+        .main {
+            background-image: url('car1.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+
+        .content-container {
+            margin-top: 1rem;
+            width: 50%;
+            float: left;
+        }
+
+        p {
+            color: #000000;
+            font-family: "Inter", sans-serif;
+            font-size: 55px;
+            font-weight: 500;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        #book,
+        #tracker {
+            margin-top: 4rem;
+        }
+
+        #book {
+            margin-top: 6rem;
+        }
+
+        #ride {
+            font-size: 30px;
+            font-family: "Inter", sans-serif;
+            background-color: #000000;
+            border: none;
+            color: #FFD0EF;
+            display: inline;
+            padding: 1.3rem;
+            border-radius: 1rem;
+            margin-left: 80px;
+            padding-right: 4rem;
+            padding-left: 4rem;
+        }
+
+        #track {
+            font-size: 20px;
+            font-family: "Inter", sans-serif;
+            background-color: #000000;
+            border: none;
+            color: #FFD0EF;
+            display: inline;
+            padding: 1rem;
+            border-radius: 1.5rem;
+            margin-left: 120px;
+        }
+
+        .text{
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+.txt{
+  color: #FFD0EF;
+}
+.join{
+  width: 50%;
+  margin: 20px;
+  padding: 10px;
+}
+.register{
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  height: 50px;
+  width: 50%;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+}
+.register a{
+    color:black;
+}
+.register a:hover{
+    text-decoration: underline;
+}
+.login a{
+    color:black;
+}
+.login a:hover{
+    text-decoration: underline;
+}
+.register a,.login a{
+    font-family: "Inter", sans-serif;
+}
+.login{
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  height: 50px;
+  width: 50%;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+    </style>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#"><span class="pink">Pink</span><span class="wheels">Wheels</span></a></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Work with us</a></li>
+                <li><a href="#"><button>Sign In</button></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="content-container">
+            <p><strong>Ride with confidence,<br>Drive Change.</strong></p>
+            <div id="book">
+                <button id="ride"><strong>Book A Ride</strong></button>
+            </div>
+            <div id="tracker">
+                <button id="track"><strong>Track Your Friend </strong></button>
+            </div>
+        </div>
+
+    </div>
+    <div class="community">
+        <div class="text" style="margin: 20px; background-color: black;">
+            <p class="txt"> <strong>Join Our Community!</strong></p>
+        </div>
+      <span style="display: flex;">
+        <div class="join">
+            <div class="register"><a href="#">REGISTER HERE  to work with us</a> </div>
+            <div class="login">Already have an account? <a href="#">Login Here</a></div>
+        </div>
+        <div><img src="people.png" alt="earth" class="bottom-image"></div>
+        </span>
+    </div>
+</body>
+
+</html>
